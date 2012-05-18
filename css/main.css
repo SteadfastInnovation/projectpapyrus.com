@@ -38,6 +38,11 @@ a:hover {
 	float:left;
 	padding:7px;
 }
+li.social {
+    float:right;
+    width:80px;
+    text-align:right;
+}
 #header a.navLnk {
 	text-decoration:none;
 	font-weight:bold;
