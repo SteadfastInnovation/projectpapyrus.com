@@ -5,11 +5,10 @@
 		<title>Papyrus</title>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link type="text/css" rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/chopslider.css"  />		
+		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  />
 		<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.id.chopslider-2.2.0.free.min.js"></script>
-		<script type="text/javascript" src="js/jquery.id.cstransitions-1.2.min.js"></script>
-		<script type="text/javascript" src="js/demo-tl.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
         <script type="text/javascript">
           (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -41,6 +40,14 @@
          })();
 
         </script>
+        <script>
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshow:  false
+                });
+            });
+        </script>
 	</head>
 	<body>
         <div id="fb-root"></div>
@@ -48,16 +55,15 @@
 			<div id="header">
 				<a href="#" id="logo"></a>
 				<ul>
-				    <!--
+                <!--
 					<li><a href="#" class="navLnk">about</a></li>
 					<li><a href="#" class="navLnk">faq</a></li>
 					<li><a href="#" class="navLnk">blog</a></li>
 					<li><a href="#" class="navLnk">contact</a></li>
-					-->
-                    <li class="social"><a href="https://twitter.com/share" class="twitter-share-button" data-via="steadfastinnov"></a></li>
-                    <li class="social"><div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div></li>
-                    <li class="social"><div class="g-plusone" data-size="medium"></div></li>
-					<!--<li><a href="mailto:feedback@projectpapyrus.com" class="navLnk">feedback@projectpapyrus.com</a></li>-->
+                -->
+                <li class="social"><a href="https://twitter.com/share" class="twitter-share-button" data-via="steadfastinnov"></a></li>
+                <li class="social"><div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div></li>
+                <li class="social"><div class="g-plusone" data-size="medium"></div></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
@@ -148,146 +154,40 @@
 				<div id="content">
 					<h2>See for yourself!</h2>
 					<div class="topSeperator"></div>
-					<div class="feature" style="height:560px;">
-						<div class="wrapper">
-						  <div class="s-shadow-b"></div>
-						  <a id="slide-next" href="#"></a> 
-						  <a id="slide-prev" href="#"></a>
-						  <div id="slider">
-						    <div class="slide cs-activeSlide"> <img src="img/slider/screenshot1.png" width="600" height="375" alt="slide1" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot2.png" width="600" height="375" alt="slide2" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot3.png" width="600" height="375" alt="slide3" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot4.png" width="600" height="375" alt="slide4" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot5.png" width="600" height="375" alt="slide5" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot6.png" width="600" height="375" alt="slide6" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot7.png" width="600" height="375" alt="slide7" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot8.png" width="600" height="375" alt="slide8" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot9.png" width="600" height="375" alt="slide9" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot10.png" width="600" height="375" alt="slide10" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot11.png" width="600" height="375" alt="slide11" /> </div>
-						    <div class="slide"> <img src="img/slider/screenshot12.png" width="600" height="375" alt="slide12" /> </div>
-						  </div>
-						  <div class="pagination"> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span>
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						    <span class="slider-pagination"></span> 
-						  </div>
-						  <div class="slide-descriptions">
-						    <div class="sl-descr">
-						    	<h3>Digital Collection!</h3>
-						    	<p>
-						    		Sort different notes into various digital notebooks in addition to starring important notes to be kept at the top - readily available.
-						    	</p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Visual Notebook!</h3>
-						    	<p>
-						    		See thumbnails of the notes inside each of your notebooks.
-						    	</p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Write Forever!</h3>
-						    	<p>
-						    		Note pages are currently college ruled paper that infinitely grows to your specific needs.
-						    	</p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Common Controls</h3>
-						    	<p>
-                                    - Undo/Redo <br />
-                                    - Tool Picker <br />
-						    		- Color Picker <br />
-                                    - Page Navigation <br />
-						    	</p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Tool Picker</h3>
-                                <p>
-                                    Choose between pen, selection, and eraser tools. <br />
-                                    <br />
-                                    Select individual thickness for pen and eraser tools. <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Color Picker</h3>
-                                <p>
-                                    Choose your pen color! <br />
-                                    <br />
-                                    Recent colors saves your last eight colors. <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Scrolling and Sharing</h3>
-                                <p>
-                                    Use two fingers to scroll/pan a page. <br />
-                                    <br />
-                                    Export notes to PDF and share them with others! <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Cut, Copy, Paste!</h3>
-                                <p>
-                                    Select strokes with the selection tool. <br />
-                                    Cut, copy, paste, and duplicate selected strokes! <br />
-                                    Move strokes within a page, note, or even to other notes! <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Active Pen Gestures!</h3>
-                                <p>
-                                    Perform gestures for common tasks on active pen devices! <br />
-                                    <br />
-                                    Hold the side but and swipe up/down/left/right to perform quick tasks. <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Single Finger Erase!</h3>
-                                <p>
-                                    Erase strokes with a single finger on active pen devices! <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Active Pen Selection</h3>
-                                <p>
-                                    Use the selection tool with your active pen simply by holding the side button and drawing a "lasso" around strokes! <br />
-                                    <br />
-                                    Hold the pen side button and tap to access cut/copy/paste. <br />
-                                </p>
-						    </div>
-						    <div class="sl-descr">
-						    	<h3>Enjoy!</h3>
-                                <p>
-                                    We'd love to hear from you! <br />
-                                </p>
-						    </div>
-						  </div>
-						  <div class="caption"></div>
-						  <div class="clear"></div>
-						</div>
-					</div>
+				</div>
+                <div class="feature" style="height:480px;">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li><img src="img/slider/screenshot1.png" /></li>
+                            <li><img src="img/slider/screenshot2.png" /></li>
+                            <li><img src="img/slider/screenshot3.png" /></li>
+                            <li><img src="img/slider/screenshot4.png" /></li>
+                            <li><img src="img/slider/screenshot5.png" /></li>
+                            <li><img src="img/slider/screenshot6.png" /></li>
+                            <li><img src="img/slider/screenshot7.png" /></li>
+                            <li><img src="img/slider/screenshot8.png" /></li>
+                            <li><img src="img/slider/screenshot9.png" /></li>
+                            <li><img src="img/slider/screenshot10.png" /></li>
+                            <li><img src="img/slider/screenshot11.png" /></li>
+                            <li><img src="img/slider/screenshot12.png" /></li>
+                        </ul>
+                    </div>
+                </div>
+				<div id="content">
 					<div class="topSeperator"></div>
 					<br />
 					<div class="clear"></div>
-				</div>
+                </div>
 			</div>
 			<div class="clear"></div>
 			<div id="footer">
-				<a href="mailto:feedback@projectpapyrus.com">feedback@projectpapyrus.com</a>
+                <a href="mailto:feedback@projectpapyrus.com">feedback@projectpapyrus.com</a>
 				<!--
-				<a href="#">about</a>
+                <a href="#">about</a>
 				<a href="#">faq</a>
 				<a href="#">blog</a>
 				<a href="#">contact</a>
-				-->
+                -->
 				<div class="float_right">
 					&copy; 2012 Steadfast Innovation, LLC
 				</div>
