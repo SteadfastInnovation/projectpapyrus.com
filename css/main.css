@@ -1,182 +1,146 @@
-body {
-	color:#4D4D4F;
-	font-size:12px;
-	font-family:Arial;
-	background:url(../img/background.png);
-	margin:0px;
+html {
+  background: linear-gradient(to bottom, #FBFBFB 50%, #F1F2F2 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-a:link, a:visited {
-	color:#114B9A;
-	text-decoration:none;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
 }
-a:hover {
-	text-decoration:underline;
+* {
+  margin: 0;
+  padding: 0;
 }
-.float_right {
-	float:right;
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-.clear {
-	clear:both;
+.content {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin-top: -60px;
 }
-.align_right{
-	text-align:right;
+
+.header {
+  position: fixed;
+  width: 100%;
 }
-#site {
-	width:900px;
-	margin:0px auto;
+.header ul {
+  margin:5px 0px;
+  float:right;
+  padding-right: 20px;
 }
-#header {
-	margin: 10px 0px;
-	height:50px;
-}
-#header ul {
-	margin:5px 0px;
-	float:right;
-}
-#header ul li {
-	list-style:none;
-	float:left;
-	padding:7px;
+.header ul li {
+  list-style:none;
+  float:left;
+  padding:8px;
 }
 li.social {
-    float:right;
-    width:80px;
-    text-align:right;
+  float:right;
+  width:80px;
+  text-align:right;
 }
-#header a.navLnk {
-	text-decoration:none;
-	font-weight:bold;
-	color:#4D4D4F;
-	display:block;
-	padding:5px 10px;
-}
-#header a.navLnk:hover {
-	text-decoration:underline;
-}
-#logo {
-	background:no-repeat url(../img/logo.png);
-	height:40px;
-	width:142px;
-	display:block;
-	margin:5px;
-	float:left;
-}
-#topBanner {
-	width:100%;
-	height:300px;
-	margin-bottom:20px;
-	-moz-box-shadow: 0 0 10px 1px #bbb;
-	-webkit-box-shadow: 0 0 10px 1px #bbb;
-	box-shadow: 0 0 10px 1px #bbb;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	background-color:#11A4C5;
-	background-image: linear-gradient(bottom, #11A4C5 34%, #1E6BA2 84%);
-	background-image: -o-linear-gradient(bottom, #11A4C5 34%, #1E6BA2 84%);
-	background-image: -moz-linear-gradient(bottom, #11A4C5 34%, #1E6BA2 84%);
-	background-image: -webkit-linear-gradient(bottom, #11A4C5 34%, #1E6BA2 84%);
-	background-image: -ms-linear-gradient(bottom, #11A4C5 34%, #1E6BA2 84%);
 
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.34, #11A4C5),
-		color-stop(0.84, #1E6BA2)
-	);
+.download-buttons {
+  display: inline-block;
+  position: absolute;
+  top: 325px;
+  left: 425px;
 }
-#topBanner .content {
-	width: 410px;
-	padding: 30px 50px;
+.download-buttons a {
+  color: white;
+  font-weight: normal;
 }
-#promo {
-	float: right;
-	margin: 20px;
+.download-button {
+  display: inline-block;
+  width: 170px;
+  height: 28px;
+  margin: 3px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #4D4D4F;
+  vertical-align: middle;
+  text-align: left;
+  position: relative;
+  font-weight: 300;
 }
-#download {
-	width: 172px;
-	margin: 30px auto;
+.download-button:hover {
+  background-color: #01A5C5;
 }
-#topBanner h3, #content .wrapper h3 {
-	color: white;
-	font-size: 24px;
-	font-family: Helvetica;
+.download-button .download-text {
+  display: block;
+  line-height: 1em;
+  margin-top: -2px;
+  font-size: 13px;
+  letter-spacing: 0.01em;
 }
-#topBanner p {
-	color: #EBEBEC;
-	font-weight: bold;
-	font-family: Helvetica;
-	font-style: italic;
+.download-button .client-name {
+  display: block;
+  font-size: 19px;
+  margin-top: 4px;
+  letter-spacing: normal;
 }
-#main {
-	width:100%;
-	min-height:300px;
-	margin-bottom:20px;
-	-moz-box-shadow: 0 0 10px 1px #bbb;
-	-webkit-box-shadow: 0 0 10px 1px #bbb;
-	box-shadow: 0 0 10px 1px #bbb;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	background-color:white;
+.download-button .icon {
+  position: absolute;
+  right: 12px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: inherit;
+  height: 30px;
 }
-#content {
-	padding:20px 50px;
+.download-button .icon.android {
+  background-image: url('../img/android.png');
+  background-size: auto 30px;
+  top: 11px;
 }
-#content h2 {
-	color:#01A5C5;
-	font-size:20px;
+.download-button .icon.windows {
+  background-image: url('../img/windows.png');
+  background-size: auto 24px;
+  top: 14px;
 }
-#content h3 {
-	color:#000;
-	font-size:18px;
+
+.footer {
+  clear: left;
+  display: block;
+  position: fixed;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 18px;
+  left: 0;
+  bottom: 0;
 }
-#content ul {
-	margin:0px 0px 0px 20px;
-	padding:0px;
+.footer p {
+  float: left;
+  margin: 0;
+  position: relative;
+  color: #4D4D4F;
+  top: 0;
+  padding-left: 20px;
 }
-#content li {
-	list-style-image: url(../img/bullet.png);
-	padding:5px;
+.footer ul {
+  float: right;
+  list-style: none;
+  padding-right: 20px;
 }
-.topSeperator {
-	width:100%;
-	height:1px;
-	background-color:#ccc;
-	margin:0px auto;
-	clear:both;
+.footer ul li {
+  float: left;
+  padding: 0 0 0 20px;
 }
-.seperator {
-	width:700px;
-	height:1px;
-	background-color:#ccc;
-	margin:0px auto;
-	clear:both;
+.footer ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #4D4D4F;
 }
-.feature {
-	color:#666;
-	width:700px;
-	margin:0px auto;
-	height:200px;
-}
-.feature .twoCol {
-	width:310px;
-	float:left;
-	padding:20px;
-	text-align:center;
-}
-.feature .twoCol .txt {
-	text-align:left;
-	width:300px;
-}
-#footer {
-	color:#999;
-}
-#footer a {
-	text-decoration:none;
-	font-weight:bold;
-	display:block;
-	color:#4D4D4F;
-	float:left;
-	padding:3px 10px;
-	margin-bottom:40px;
+.footer ul li a:hover {
+  color: #01A5C5;
 }
