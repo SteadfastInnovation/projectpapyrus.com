@@ -32,8 +32,9 @@ html, body {
   margin-top: 20px;
 }
 .description p {
-  font-size: 32px;
+  font-size: 48px;
   color: #4D4D4F;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .header {
