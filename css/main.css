@@ -122,6 +122,17 @@ li.social {
   top: 14px;
 }
 
+.translate {
+  font-size: 18px;
+  color: #4D4D4F;
+}
+.translate a {
+  color: #4D4D4F;
+}
+.translate a:hover {
+  opacity: 0.5;
+}
+
 .footer {
   clear: left;
   display: block;
