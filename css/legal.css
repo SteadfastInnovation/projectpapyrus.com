@@ -56,8 +56,9 @@ li.social {
 	text-decoration:underline;
 }
 #logo {
-	background:no-repeat url(../img/logo.png);
-	height:40px;
+	background-image: url(../img/squid_logo_blue.svg);
+    background-size: 142px 40px;
+    height:40px;
 	width:142px;
 	display:block;
 	margin:5px;
