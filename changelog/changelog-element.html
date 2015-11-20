@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+<dom-module id="change-log">
+
+  <template>
+    <iron-ajax
+        auto
+        url="{{file}}"
+        handle-as="text"
+        last-response="{{markdown}}"></iron-ajax>
+    
+    <marked-element id="md" markdown="{{markdown}}">
+        <div class="markdown-html"></div>
+    </marked-element>
+  </template>
+
+  <script>
+  Polymer({
+    is: "change-log",
+    ready: function() {
+    },
+    properties: {
+      file: String
+    }
+  });
+  </script>
+  
+</dom-module>

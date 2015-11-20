@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #01A5C5;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 72px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+marked-element {
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.87)
+}
+marked-element a {
+    color: #F36C21;
+    text-decoration: none;
+}
+marked-element a:hover {
+    color: #F36C21;
+    text-decoration: underline;
+}
+.markdown-html h1 {
+    color: #F36C21;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 16px;
+    padding-left: 0px;
+}
+.markdown-html h2 {
+    font-size: 18px;
+    background-color: #E1F5FE;
+    color: #0277BD;
+    padding-left: 8px;
+    padding: 8px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.markdown-html h3 {
+    font-size: 14px;
+    background-color: #E1F5FE;
+    color: #0277BD;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.markdown-html ul {
+    padding-left: 25px;
+}
+.markdown-html li {
+    font-weight: 300;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 18px;
+    text-indent: -24px;
+    padding-bottom: 4px;
+    color: rgba(0,0,0,0.87)
+}
+.markdown-html li img {
+    width: 18px;
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: #01A5C5;
+    font-size: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 36px;
+}
+.footer p {
+    float: left;
+    margin: 0;
+    position: relative;
+    color: #FFFFFF;
+    top: 50%;
+    padding-left: 20px;
+}
+.footer .links {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    padding-right: 20px;
+}
+.footer .links a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 0 0 0 20px;
+}
+.footer .links a:hover {
+    color: #F36C21;
+}

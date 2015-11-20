@@ -1,0 +1,19 @@
+{
+  "name": "squid",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "marked-element": "PolymerElements/marked-element#~1.1.1",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.1.1"
+  }
+}

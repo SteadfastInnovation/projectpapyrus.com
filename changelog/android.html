@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Squid Changelog</title>
+		<link rel="shortcut icon" href="../favicon.png" />
+		<link type="text/css" rel="stylesheet" href="../css/changelog.css" />
+
+        <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+        <link rel="import" href="../bower_components/polymer/polymer.html">
+        <link rel="import" href="../bower_components/marked-element/marked-element.html">
+        <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+        <link rel="import" href="changelog-element.html">
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-30534459-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+        </script>
+    </head>
+
+    <body unresolved>
+        <div class="header">Squid Changelog</div>
+        <change-log file="changelog-android.md"></change-log>
+        <div class="footer">
+	        <p>&copy; 2015 Steadfast Innovation, LLC</p>
+            <div class="links">
+                <a href="https://google.com/+SquidNotes">+SquidNotes</a>
+                <a href="http://steadfastinnovation.com/#blog">Blog</a>
+                <a href="#" data-uv-trigger="smartvote">Feedback</a>
+                <a href="http://feedback.squidnotes.com">Help</a>
+                <a href="mailto:feedback@papyrusapp.com" data-uv-trigger>Contact</a>
+                <a href="../eula.html">Terms</a>
+            </div>
+        </div>
+        <script>
+        // Include the UserVoice JavaScript SDK (only needed once on a page)
+        UserVoice=window.UserVoice||[];
+        (function(){
+          var uv=document.createElement('script');
+          uv.type='text/javascript';
+          uv.async=true;
+          uv.src='//widget.uservoice.com/Y5YrGNy9wd8Ujv3nXw1Bpw.js';
+          var s=document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(uv,s)
+        })();
+
+        //
+        // UserVoice Javascript SDK developer documentation:
+        // https://www.uservoice.com/o/javascript-sdk
+        //
+
+        // Set colors
+        UserVoice.push(['set', {
+          accent_color: '#448dd6',
+          trigger_color: 'white',
+          trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+        }]);
+
+        // Identify the user and pass traits
+        // To enable, replace sample data with actual user traits and uncomment the line
+        UserVoice.push(['identify', {
+          //email:      'john.doe@example.com', // User’s email address
+          //name:       'John Doe', // User’s real name
+          //created_at: 1364406966, // Unix timestamp for the date the user signed up
+          //id:         123, // Optional: Unique id of the user (if set, this should not change)
+          //type:       'Owner', // Optional: segment your users by type
+          //account: {
+          //  id:           123, // Optional: associate multiple users with a single account
+          //  name:         'Acme, Co.', // Account name
+          //  created_at:   1364406966, // Unix timestamp for the date the account was created
+          //  monthly_rate: 9.99, // Decimal; monthly rate of the account
+          //  ltv:          1495.00, // Decimal; lifetime value of the account
+          //  plan:         'Enhanced' // Plan name for the account
+          //}
+        }]);
+
+        // Add default trigger to the bottom-right corner of the window:
+        //UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
+
+        // Or, use your own custom trigger:
+        //UserVoice.push(['addTrigger', '#id', { mode: 'contact' }]);
+
+        // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+        //UserVoice.push(['autoprompt', {}]);
+        </script>
+    </body>
+</html>
