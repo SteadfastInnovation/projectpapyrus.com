@@ -19,14 +19,16 @@ marked-element {
     max-width: 650px;
     margin: 0 auto;
     padding: 16px;
+}
+.markdown-html {
     font-family: 'Roboto', sans-serif;
     color: rgba(0,0,0,0.87)
 }
-marked-element a {
+.markdown-html a {
     color: #F36C21;
     text-decoration: none;
 }
-marked-element a:hover {
+.markdown-html a:hover {
     color: #F36C21;
     text-decoration: underline;
 }
