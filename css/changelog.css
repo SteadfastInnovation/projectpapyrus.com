@@ -22,6 +22,7 @@ marked-element {
 }
 .markdown-html {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: rgba(0,0,0,0.87)
 }
 .markdown-html a {
@@ -41,6 +42,7 @@ marked-element {
 }
 .markdown-html h2 {
     font-size: 18px;
+    font-weight: 500;
     background-color: #E1F5FE;
     color: #0277BD;
     padding-left: 8px;
@@ -99,7 +101,6 @@ marked-element {
 }
 .footer .links a {
     text-decoration: none;
-    font-weight: normal;
     color: #FFFFFF;
     padding: 0 0 0 20px;
 }
