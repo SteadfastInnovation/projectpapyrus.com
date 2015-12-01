@@ -3,7 +3,8 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-family: 'Roboto', sans-serif;
 }
 .header {
     background-color: #01A5C5;
@@ -11,8 +12,6 @@ html, body {
     color: white;
     font-size: 48px;
     padding: 72px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
 }
 marked-element {
     display: block;
@@ -21,7 +20,6 @@ marked-element {
     padding: 16px;
 }
 .markdown-html {
-    font-family: 'Roboto', sans-serif;
     color: rgba(0,0,0,0.87)
 }
 .markdown-html a {
@@ -35,9 +33,9 @@ marked-element {
 .markdown-html h1 {
     color: #F36C21;
     font-size: 24px;
-    font-weight: 300;
     padding: 16px;
     padding-left: 0px;
+	font-weight:300;
 }
 .markdown-html h2 {
     font-size: 18px;
@@ -47,21 +45,21 @@ marked-element {
     padding: 8px;
     margin-bottom: 0px;
     text-align: center;
+	font-weight:300;
 }
 .markdown-html h3 {
     font-size: 14px;
     background-color: #E1F5FE;
     color: #0277BD;
-    font-weight: 300;
     margin-top: 0px;
     padding-bottom: 8px;
     text-align: center;
+	font-weight:300;
 }
 .markdown-html ul {
     padding-left: 25px;
 }
 .markdown-html li {
-    font-weight: 300;
     font-size: 16px;
     list-style: none;
     padding-left: 18px;
