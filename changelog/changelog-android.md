@@ -1,13 +1,19 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 2.2.3
+### December 10, 2015
+* ![UPDATE]Updated translations and added new languages ([help translate Squid!](http://translate.squidnotes.com))
+* ![FIX]Fixed various PDF rendering issues such as extra garbled text being shown
+* ![FIX]Fixed issues with presenting to a wireless display (e.g. Miracast)
+
+# Previous Releases
 ## 2.2.2
 ### November 20, 2015
 * ![UPDATE]Improved detection of PDF errors to prevent crashes
 * ![UPDATE]Show "Input methods" settings if an active pen has ever been used. Fixes issue with Z Stylus/ZenPad S and possibly other devices.
 * ![FIX]Bug fixes and improvements to PDF support
 
-# Previous Releases
 ## 2.2.1
 ### November 12, 2015
 * ![NEW]Support for Android 6.0 (Marshmallow) runtime permissions
