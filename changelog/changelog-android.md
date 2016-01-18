@@ -1,13 +1,22 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 2.2.4
+### January 14, 2016
+* ![UPDATE]Improved general performance when displaying many note thumbnails
+* ![UPDATE]Updated translations ([help translate Squid!](http://translate.squidnotes.com))
+* ![FIX]Fixed issue with missing text after exporting a note to PDF on some devices
+* ![FIX]Fixed issue with cropping some images where the background is black
+* ![FIX]Fixed issue where input methods settings were appearing on devices that don’t support active pens
+* ![FIX]Various other bug fixes and improvements
+
+# Previous Releases
 ## 2.2.3
 ### December 10, 2015
 * ![UPDATE]Updated translations and added new languages ([help translate Squid!](http://translate.squidnotes.com))
 * ![FIX]Fixed various PDF rendering issues such as extra garbled text being shown
 * ![FIX]Fixed issues with presenting to a wireless display (e.g. Miracast)
 
-# Previous Releases
 ## 2.2.2
 ### November 20, 2015
 * ![UPDATE]Improved detection of PDF errors to prevent crashes
