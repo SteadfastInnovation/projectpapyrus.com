@@ -1,6 +1,19 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.0.0
+### February 19, 2016
+Introducing [Squid Premium](http://goo.gl/YSiG13). Want to know more? [Read this](https://goo.gl/XJC694).
+* ![NEW]Squid Premium gives you unfettered access to premium features
+* ![NEW]New premium background options (math, engineering, music, sports, etc.)
+* ![NEW]Redesigned background picker with preview
+* ![UPDATE]Adding a page at the end of a note now uses the current page background
+* ![UPDATE]Inserting a page pre-populates the background preview with the current page background
+* ![UPDATE]Easily create a new note from any background type
+* ![UPDATE]Updated translations ([help translate Squid!](http://translate.squidnotes.com))
+* ![FIX]Various bug fixes and improvements
+
+# Previous Releases
 ## 2.2.4
 ### January 14, 2016
 * ![UPDATE]Improved general performance when displaying many note thumbnails
@@ -10,7 +23,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![FIX]Fixed issue where input methods settings were appearing on devices that don’t support active pens
 * ![FIX]Various other bug fixes and improvements
 
-# Previous Releases
 ## 2.2.3
 ### December 10, 2015
 * ![UPDATE]Updated translations and added new languages ([help translate Squid!](http://translate.squidnotes.com))
