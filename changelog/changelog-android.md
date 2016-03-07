@@ -1,6 +1,14 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.0.1
+### March 4, 2016
+* ![NEW]New grid paper backgrounds: 1 mm, 5 mm, and 1 cm
+* ![NEW]Added preference to completely disable casting and presenting
+* ![FIX]Fixed crashes in notes containing PDFs with large images
+* ![FIX]Various bug fixes and improvements for PDF rendering and exporting
+
+# Previous Releases
 ## 3.0.0
 ### February 19, 2016
 Introducing [Squid Premium](http://goo.gl/YSiG13). Want to know more? [Read this](https://goo.gl/XJC694).
@@ -13,7 +21,6 @@ Introducing [Squid Premium](http://goo.gl/YSiG13). Want to know more? [Read this
 * ![UPDATE]Updated translations ([help translate Squid!](http://translate.squidnotes.com))
 * ![FIX]Various bug fixes and improvements
 
-# Previous Releases
 ## 2.2.4
 ### January 14, 2016
 * ![UPDATE]Improved general performance when displaying many note thumbnails
