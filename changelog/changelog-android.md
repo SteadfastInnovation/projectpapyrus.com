@@ -1,6 +1,13 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.0.2
+### March 31, 2016
+* ![NEW]New planner and list paper backgrounds
+* ![FIX]Fixed issue with pen side buttons not being detected on Marshmallow
+* ![FIX]Various bug fixes and improvements
+
+# Previous Releases
 ## 3.0.1
 ### March 4, 2016
 * ![NEW]New grid paper backgrounds: 1 mm, 5 mm, and 1 cm
@@ -8,7 +15,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![FIX]Fixed crashes in notes containing PDFs with large images
 * ![FIX]Various bug fixes and improvements for PDF rendering and exporting
 
-# Previous Releases
 ## 3.0.0
 ### February 19, 2016
 Introducing [Squid Premium](http://goo.gl/YSiG13). Want to know more? [Read this](https://goo.gl/XJC694).
