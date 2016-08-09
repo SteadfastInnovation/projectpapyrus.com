@@ -1,13 +1,26 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.1.0
+### July 30, 2016
+* ![NEW]Tap the current page number to view all the pages in a note
+* ![NEW]Tap a page thumbnail to jump to that page
+* ![NEW]Rearrange pages by long pressing a page thumbnail, then drag and drop
+* ![NEW]Bulk delete pages by long pressing one or more page thumbnails, then tap delete
+* ![NEW]New sports backgrounds: football, baseball, and hockey
+* ![NEW]Choose any color for the blank background
+* ![NEW]New tabs for easier browsing of background categories
+* ![UPDATE]Redesigned and improved color picker
+* ![FIX]Fixed issue with exporting notes to some apps
+* ![FIX]Various other bug fixes and improvements
+
+# Previous Releases
 ## 3.0.2
 ### March 31, 2016
 * ![NEW]New planner and list paper backgrounds
 * ![FIX]Fixed issue with pen side buttons not being detected on Marshmallow
 * ![FIX]Various bug fixes and improvements
 
-# Previous Releases
 ## 3.0.1
 ### March 4, 2016
 * ![NEW]New grid paper backgrounds: 1 mm, 5 mm, and 1 cm
