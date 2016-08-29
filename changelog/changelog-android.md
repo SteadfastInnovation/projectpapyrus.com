@@ -1,6 +1,12 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.1.1
+### August 26, 2016
+* ![UPDATE]Various under-the-hood performance improvements
+* ![FIX]Fixed issue with single dot disappearing
+
+# Previous Releases
 ## 3.1.0
 ### July 30, 2016
 * ![NEW]Tap the current page number to view all the pages in a note
@@ -14,7 +20,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![FIX]Fixed issue with exporting notes to some apps
 * ![FIX]Various other bug fixes and improvements
 
-# Previous Releases
 ## 3.0.2
 ### March 31, 2016
 * ![NEW]New planner and list paper backgrounds
