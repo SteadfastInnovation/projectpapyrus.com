@@ -5,6 +5,7 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 ### August 26, 2016
 * ![UPDATE]Various under-the-hood performance improvements
 * ![FIX]Fixed issue with single dot disappearing
+* ![FIX]Fixed issue with importing PDFs or adding images from some apps on Android 6.0+ (e.g. Dropbox)
 
 # Previous Releases
 ## 3.1.0
