@@ -1,4 +1,4 @@
-Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
+Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
 ## 3.1.2
