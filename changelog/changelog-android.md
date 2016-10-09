@@ -1,13 +1,20 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://feedback.squidnotes.com) for features, browse our [FAQ](http://feedback.squidnotes.com/knowledgebase), and [contact support](mailto:support@papyrusapp.com) if you have any questions!
 
 # Newest Release
+## 3.1.2
+### September 30, 2016
+* ![NEW]Print from any Android 4.4+ device
+* ![FIX]Bug fixes and improvements to PDF rendering and exporting
+* ![FIX]Fixed PDF and image import issue with some apps on Android 6.0+
+* ![FIX]Fixed failure to open some old notes
+
+# Previous Releases
 ## 3.1.1
 ### August 26, 2016
 * ![UPDATE]Various under-the-hood performance improvements
 * ![FIX]Fixed issue with single dot disappearing
 * ![FIX]Fixed issue with importing PDFs or adding images from some apps on Android 6.0+ (e.g. Dropbox)
 
-# Previous Releases
 ## 3.1.0
 ### July 30, 2016
 * ![NEW]Tap the current page number to view all the pages in a note
