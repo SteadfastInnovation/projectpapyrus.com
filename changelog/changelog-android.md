@@ -1,6 +1,21 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.2.0
+### February 10, 2017
+* ![NEW]Share an image to Squid to create a new note with the image
+* ![NEW]PDF import now uses the system document picker on Android 4.4+ ([How do I import a PDF that's on my device or SD card?](https://goo.gl/OlIAbi))
+* ![NEW]Added round launcher icon for Android 7.1+
+* ![UPDATE]Improved rendering of images
+* ![UPDATE]Improved reliability of Dropbox and Box cloud backup (updated to Dropbox API v2)
+* ![UPDATE]Updated translations ([help translate Squid!](http://translate.squidnotes.com))
+* ![FIX]Fixed issue with importing PDFs
+* ![FIX]Fixed issue with new note shortcut
+* ![FIX]Fixed issues with presentation mode
+* ![FIX]Fixed issues with Android on Chrome OS
+* ![FIX]Various other bug fixes and improvements
+
+# Previous Releases
 ## 3.1.2
 ### September 30, 2016
 * ![NEW]Print from any Android 4.4+ device
@@ -8,7 +23,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![FIX]Fixed PDF and image import issue with some apps on Android 6.0+
 * ![FIX]Fixed failure to open some old notes
 
-# Previous Releases
 ## 3.1.1
 ### August 26, 2016
 * ![UPDATE]Various under-the-hood performance improvements
