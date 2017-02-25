@@ -1,6 +1,11 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.2.1
+### February 24, 2017
+* ![FIX]Fixed issue with presenting to wireless displays (e.g. Miracast)
+
+# Previous Releases
 ## 3.2.0
 ### February 10, 2017
 * ![NEW]Share an image to Squid to create a new note with the image
@@ -15,7 +20,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![FIX]Fixed issues with Android on Chrome OS
 * ![FIX]Various other bug fixes and improvements
 
-# Previous Releases
 ## 3.1.2
 ### September 30, 2016
 * ![NEW]Print from any Android 4.4+ device
