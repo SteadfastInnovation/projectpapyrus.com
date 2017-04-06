@@ -1,11 +1,20 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.2.2
+### March 28, 2017
+* ![UPDATE]Improved reliability of cloud export
+* ![UPDATE]Changed sorting by name to treat numbers correctly
+* ![FIX]Fixed crashes with certain PDFs
+* ![FIX]Fixed issue with presenting to Chromecast on Android 7.1
+
+NOTE: Presenting to wireless displays is currently broken on Android 7.1 due to a change in Android.
+
+# Previous Releases
 ## 3.2.1
 ### February 24, 2017
 * ![FIX]Fixed issue with presenting to wireless displays (e.g. Miracast)
 
-# Previous Releases
 ## 3.2.0
 ### February 10, 2017
 * ![NEW]Share an image to Squid to create a new note with the image
