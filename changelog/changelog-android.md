@@ -1,6 +1,21 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.3.0
+### June 21, 2017
+* ![NEW]Support for multi-window mode on Android 7+
+* ![NEW]Support for drag & drop on Android 7+
+* ![NEW]Added common keyboard shortcuts (cut, copy, paste, undo, redo, delete, select all)
+* ![NEW]Added basic mouse support (mouse click uses current tool)
+* ![UPDATE]Improved local backup & restore interface on Android 4.4+
+* ![UPDATE]Added ability to save/restore backups to/from external SD card
+* ![UPDATE]Added ability to save/restore backups to/from Google Drive when Drive app is installed on Android 4.4+
+* ![UPDATE]Improved "Save to device" interface for note export on Android 4.4+
+* ![UPDATE]Improved "Choose image" interface for image import on Android 4.4+
+* ![UPDATE]Allow touching outside current page to pan/zoom
+* ![FIX]Various bug fixes and improvements
+
+# Previous Releases
 ## 3.2.2
 ### March 28, 2017
 * ![UPDATE]Improved reliability of cloud export
@@ -10,7 +25,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 
 NOTE: Presenting to wireless displays is currently broken on Android 7.1 due to a change in Android.
 
-# Previous Releases
 ## 3.2.1
 ### February 24, 2017
 * ![FIX]Fixed issue with presenting to wireless displays (e.g. Miracast)
