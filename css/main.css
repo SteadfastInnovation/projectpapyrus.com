@@ -27,7 +27,6 @@ html, body {
   display: inline-block;
   position: relative;
   text-align: center;
-  margin-top: -120px;
 }
 .description {
   margin-top: 24px;
