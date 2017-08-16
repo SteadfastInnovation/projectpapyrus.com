@@ -1,6 +1,15 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.3.1
+### August 15, 2017
+* ![NEW]Added highlighter tool to primary and secondary pen side button options
+* ![UPDATE]Improved support for mouse: right click to select, middle click to pan, use scroll wheel to pan and hold <ctrl> to zoom ([list of mouse/keyboard shortcuts](https://goo.gl/hS62LE))
+* ![UPDATE]Various improvements to Chromebook support
+* ![UPDATE]Updated to latest version of Dropbox
+* ![FIX]Various bug fixes and improvements
+
+# Previous Releases
 ## 3.3.0
 ### June 21, 2017
 * ![NEW]Support for multi-window mode on Android 7+
@@ -15,7 +24,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![UPDATE]Allow touching outside current page to pan/zoom
 * ![FIX]Various bug fixes and improvements
 
-# Previous Releases
 ## 3.2.2
 ### March 28, 2017
 * ![UPDATE]Improved reliability of cloud export
