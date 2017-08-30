@@ -1,6 +1,12 @@
 Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://google.com/+SquidNotes), or [Facebook](http://facebook.com/steadfastinnovation) for updates. [Vote](http://idea.squidnotes.com) for features, browse our [FAQ](http://faq.squidnotes.com), and [contact support](mailto:support@squidnotes.com) if you have any questions!
 
 # Newest Release
+## 3.3.2
+### August 29, 2017
+* ![FIX]Fixed enter key not inserting newline in text tool dialog
+* ![FIX]Various bug fixes and improvements
+
+# Previous Releases
 ## 3.3.1
 ### August 15, 2017
 * ![NEW]Added highlighter tool to primary and secondary pen side button options
@@ -9,7 +15,6 @@ Follow us on [Twitter](http://twitter.com/steadfastinnov), [Google+](http://goog
 * ![UPDATE]Updated to latest version of Dropbox
 * ![FIX]Various bug fixes and improvements
 
-# Previous Releases
 ## 3.3.0
 ### June 21, 2017
 * ![NEW]Support for multi-window mode on Android 7+
